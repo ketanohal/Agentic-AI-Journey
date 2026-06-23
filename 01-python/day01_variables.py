@@ -15,11 +15,48 @@ city = "New York"
 is_student = True
 
 
-print(name)
+# print(name)
 
 #checking type of variable
 
-print(type(name))
+# print(type(name))
 
 #user input
-name = input("Enter the username: ")
+# name = input("Enter the username: ")
+# Everything entered through input() is a string.
+# age = int(input("Enter your age: "))
+# print(type(age))
+# print(type(name))
+
+#Instead of:
+# name = "Ketan Ohal"
+# print("Hello " + name)
+
+# Assignment 1
+
+# Create a program that asks:
+
+# Name
+# Age
+# City
+# Current Company
+
+# Output:
+
+# Employee Details
+
+# Name: Ketan
+# Age: 27
+# City: Pune
+# Company: Technosys
+
+empname = input("Enter your name: ")
+empage = int(input("Enter your age: "))
+empcity = input("Enter your city: ")
+empcompany = input("Enter your current company name: ")
+
+print("\nEmployee Details")
+print(f"Name: {empname}")
+print(f"Age: {empage}")       # Added f-string formatting
+print(f"City: {empcity}")       # Added f-string formatting
+print(f"Company: {empcompany}") # Added f-string formatting
